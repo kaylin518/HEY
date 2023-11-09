@@ -51,8 +51,9 @@ Create the file and append this code:
 <br/><br/>  
 ## Step 6: Create a file order.java  
 Create the code and append this code:
-`public class order { public static void main(String[] args) { } public static String asciiOrder(String phrase) { int[] arr = new int[phrase.length()];for (int i = 0; i < phrase.length(); i++) { arr[i] = (int) phrase.charAt(i); } Sort.selectionSort(arr); return decode.decoder(arr);} } `  
-**Commit!**
+`public class order { public static void main(String[] args) { } public static String asciiOrder(String phrase) { int[] arr = new int[phrase.length()];for (int i = 0; i < phrase.length(); i++) { arr[i] = (int) phrase.charAt(i); } Sort.selectionSort(arr); return decode.decoder(arr);} } ` 
+ 
+ **Commit!**
 <br/><br/>  
 ## Step 6: Whoops! We have to remove one our commits
 We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4.  

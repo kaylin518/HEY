@@ -28,7 +28,7 @@ Now, in this repository, you can open a codespace (also under the green code but
 ## Step 1: Create a "vars.java" file.  
 Let's create a new file using our codespace. In the terminal, use the "touch" BASH command to create vars.java. Then, you can append the following to that file ->  
 `public class vars { public static void main(String[] args) { } public static String getName() {String name = "__name__"; return name; } public static String welcome() { return "Welcome to the Spark! Git Microchallenge!"; } }`  
-Remember that Java doesn't care about whitespace or indents, which is why we can append this all as one line. Also, notice that there are double quotes in the above code, so you will have to use single quotes to append.  
+Remember that Java doesn't care about whitespace or indents, which is why we can append this all as one line. Also, notice that there are double quotes in the above code, so you will have to use single quotes to append.   
 **Commit!**  
 
 ## Step 2: Update our "name" variable in vars.java  
@@ -36,24 +36,24 @@ Use Bash command `sed -i -e 's/__name__/[your name here]/g' vars.java`
 **Commit!**  
 
 ## Step 3: Create a branch  
-Create a new branch called temp, and move into it.
-**Commit!**    
+Create a new branch called temp, and move into it.  
+**Commit!**     
 
 ## Step 4: Append some code to Message.java  
 Append the following to your Message.java file:
-`public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }`
-**Commit!**
+`public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }`  
+**Commit!**  
 <br/><br/>  
 ## Step 5: Create a "decode.java" file  
 Create the file and append this code:
-`public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = ""; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`
-**Commit!** 
+`public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = ""; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`  
+**Commit!**  
 <br/><br/>  
 ## Step 6: Create a file order.java  
 Create the code and append this code:
-`public class order { public static void main(String[] args) { } public static String asciiOrder(String phrase) { int[] arr = new int[phrase.length()];for (int i = 0; i < phrase.length(); i++) { arr[i] = (int) phrase.charAt(i); } Sort.selectionSort(arr); return decode.decoder(arr);} } `
+`public class order { public static void main(String[] args) { } public static String asciiOrder(String phrase) { int[] arr = new int[phrase.length()];for (int i = 0; i < phrase.length(); i++) { arr[i] = (int) phrase.charAt(i); } Sort.selectionSort(arr); return decode.decoder(arr);} } `  
 **Commit!**
 <br/><br/>  
 ## Step 6: Whoops! We have to remove one our commits
-We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4.
+We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4.  
 

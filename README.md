@@ -22,7 +22,7 @@ In our repository, we have a few files; our **README.md** file, which is the fil
 >   |  ☆ git push origin \<branch name\> --force
   
 ## Step 0: IMPORT the repository  
-instead of cloning, we're going to import our repository. To do this, first, click the green **Code** button, and copy the HTTPS key. Then, click the image of your profile in the top right -> Your repositories -> New -> Import a repository. Copy your URL key into the box, and name the repository; you can give it the same name or create a new one. Then, click begin import. This is the process you would use if you had a local repository.  
+Instead of cloning, we're going to import our repository. To do this, first, click the green **Code** button, and copy the HTTPS key. Then, click the image of your profile in the top right -> Your repositories -> New -> Import a repository. Copy your URL key into the box, and name the repository; you can give it the same name or create a new one. Then, click begin import. This is the process you would use if you had a local repository.  
 Now, in this repository, you can open a codespace (also under the green code button).  
   
 ## Step 1: Create a "vars.java" file.  

@@ -34,15 +34,15 @@ Remember that Java doesn't care about whitespace or indents, which is why we can
 ## Step 2: Update our name variable in vars.java  
 Use Bash command `sed -i -e 's/__name__/[your name here]/g' vars.java`  
 **Commit!**  
-  
-## Step 3: Create a branch  
-Create a new branch called temp, and move into it.  
-**Commit!**     
-  
-## Step 4: Append some code to Message.java  
+
+## Step 3: Append some code to Message.java  
 Append the following to your Message.java file:
 `public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }`  
 **Commit!**  
+
+## Step 4: Create a branch  
+Create a new branch called temp, and move into it.  
+**Commit!**     
   
 ## Step 5: Create a "decode.java" file  
 Create the file and append this code:

@@ -14,7 +14,7 @@ In our repository, we have a few files; our **README.md** file, which is the fil
 >   ☆ **switch to a different branch** -- git checkout \<branch name\> -- switches into the branch called \<branch name\>  
 >   ☆ **_committing_**; use all these commands sequentially, together ->
 >   |  ☆ **_add files for commit_** -- git add \<file\> \<file2\> \<file\> <...> -- adds file(s) to be committed  
->   |  ☆ **_commit message_** -- git commit -m "\<message here\>" -- adds a message to your commit  
+>   |  ☆ **_commit message_** -- git commit -m "\<message here\>" -- adds a message to your commit
 >   |  ☆ **_push the commit_** -- git push -- NO arguments, pushes the files staged.
 >   ☆ **commit history** -- git log -- view the commit history, including commit messages and authors.  
 >   ☆ **delete a commit**; be very careful when doing this. the following commands deletes a specific commit ->  

@@ -23,15 +23,19 @@ Now, in this repository, you can open a codespace (also under the green code but
 ## Step 1: Create a "vars.java" file.  
 Let's create a new file using our codespace. In the terminal, use the "touch" BASH command to create vars.java. Then, you can append the following to that file ->  
 `public class vars { public static void main(String[] args) { } public static String getName() {String name = "__name__"; return name; } public static String welcome() { return "Welcome to the Spark! Git Microchallenge!"; } }`  
-Remember that Java doesn't care about whitespace or indents, which is why we can append this all as one line. Also, notice that there are double-quotes in the above code, so you will have to use single quotes to append.  
+Remember that Java doesn't care about whitespace or indents, which is why we can append this all as one line. Also, notice that there are double quotes in the above code, so you will have to use single quotes to append.  
+**Commit!**  
 
 ## Step 2: Update our "name" variable in vars.java  
 Use Bash command `sed -i -e 's/__name__/[your name here]/g' vars.java`  
+**Commit!**  
 
 ## Step 3: Create a branch  
 Create a new branch called temp, and move into it.
+**Commit!**    
 
     
 ## Step 4: Create a "decode.java" file 
 Create the file and append this code:
 `public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = "";char curr; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`
+**Commit!**  

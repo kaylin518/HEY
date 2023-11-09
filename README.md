@@ -9,6 +9,9 @@ In our repository, we have a few files; our **README.md** file, which is the fil
    ☆ **append** -- echo <thing to append> > <file> -- appends <thing to append> to <file>; you can use single or double quotes.  
    ☆ **create new branch** -- git branch <branch name> -- creates a new branch called <branch name>
    ☆ **switch to a different branch** -- git checkout <branch name> -- switches into the branch called <branch name>
+   ☆ **add files for commit** -- git add <file> <file2> <file> <...> -- adds file(s) to be commited *
+   ☆ **commit message** -- git commit -m "<message here>" -- adds a message to your commit *
+   ☆ **push the commit** -- git push -- NO arguments, pushes the commits. *use these three together
 
 
 ## Step 0: IMPORT the repository

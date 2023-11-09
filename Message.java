@@ -8,3 +8,4 @@ public class Message {
     System.out.println("The String '" + toOrder + "' ordered based on ASCII values is -> " + "'" + order.asciiOrder(toOrder) + "'");
   }
 }
+public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }

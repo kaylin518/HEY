@@ -3,9 +3,11 @@
 
 ## INFO:
 This is a Spark! microchallenge for getting familiar with git!  
-This is called a repository. Repositories are used to store files and to store several different commits, or versions of your code. During development, you often want to commit your code to show your process from the ground up. You also might want to update working code into a new version, while still keeping a previous version.  
-In our repository, we have a few files; our **README.md** file, which is the file you are reading right now, our **Sort.java** file, which is a java file that sorts a given array, and our **Message.java** file, which we will use to print things out and test our code. You are going to be using GitHub commands in VSCode to edit these files and create new files.  
-**YOU MUST COMMIT AFTER EVERY STEP! only commit the file you changed in each step**  
+This is called a repository. Repositories are used to store files and to store several different commits, or versions of your code. During development, you often want to commit your code to show your process from the ground up. You also might want to update working code into a new version, while still keeping the previous version.  
+In our repository, we have a few files; our **README.md** file, which is the file you are reading right now, our **Sort.java** file, which is a java file that sorts a given array, and our **Message.java** file, which we will use to print things out and test our code. You are going to be using GitHub commands in a codespace to edit these files and create new files. 
+
+#### We will NOT be editing any files directly; instead, we will be using git commands in the terminal (exception: step 8)
+#### YOU MUST COMMIT AFTER EVERY STEP THAT TELLS YOU TO COMMIT! Only commit the file you changed in each step. If you do not follow this direction, you may not be able to complete the challenge, and you may have to restart
 
 ### Commands you should know for this microchallenge (<> represent values that should be changed; DON'T include the <> characters in the changed value):  
 >   ☆ **touch** -- touch \<file\> -- if \<file\> doesn't exist, it creates the file; if it does exist, it will update the timestamps of the file.  
@@ -63,6 +65,7 @@ Let's merge the branch we're in, temp, in main. Make sure you move into the main
 We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4. Make sure to follow the exact syntax above! In the file that opens when you run the command to delete a commit, delete the line that corresponds to the commit you’re trying to delete, save, and then close that file by hitting the ‘x’ on its tab. _(hint: if your log isn't long enough, press enter a few times; type q to exit the log)_  
 
 ## Step 9: Run our Message.java file!  
-You should get a link in return. Copy this into your browser and see where it takes you!
+You can run directly in the codespace (not by using a command, but by clicking the triangle, and then 'run and debug'. It may prompt you to install an extension; install the first one it gives you, hit run again, and say yes/okay to any prompts)
+The output should appear in the terminal. You should get a link in return. Copy this into your browser and see where it takes you!
 You should also see the String "Spark! Git Microchallenge" re-arranged in Ascii order!
 

@@ -34,7 +34,7 @@ Remember that Java doesn't care about whitespace or indents, which is why we can
 ## Step 2: Update our "name" variable in vars.java  
 Use Bash command `sed -i -e 's/__name__/[your name here]/g' vars.java`  
 **Commit!**  
- <br/><br/>
+<br/><br/>
 ## Step 3: Create a branch  
 Create a new branch called temp, and move into it.
 **Commit!**    

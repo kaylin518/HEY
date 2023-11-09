@@ -60,7 +60,7 @@ Let's merge the branch we're in, temp, in main. Make sure you move into the main
 **Commit!**
 
 ## Step 8: Whoops! We have to remove one of our commits
-We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4. Make sure to follow the exact syntax above! (type q to exit the log)  
+We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4. Make sure to follow the exact syntax above! (hint: if your log isn't long enough, press enter a few time; type q to exit the log)  
 
 ## Step 9: Run our Message.java file!  
 You should get a link in return. Copy this into your browser and see where it takes you!

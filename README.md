@@ -55,14 +55,14 @@ Create the code and append this code:
 Sort.selectionSort(arr); return decode.decoder(arr);} } `  
 **Commit!**
    
-## Step 6: Whoops! We have to remove one of our commits
+## Step 7: Whoops! We have to remove one of our commits
 We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4. Make sure to follow the exact syntax above!  
 
-## Step 7: Merge with main  
+## Step 8: Merge with main  
 Let's merge the branch we're in, temp, in main. Make sure you move into the main branch first!
 **Commit!**
 
-## Step 8: Run our Message.java file!  
+## Step 9: Run our Message.java file!  
 You should get a link in return. Copy this into your browser and see where it takes you!
 You should also see the String "Spark! Git Microchallenge" re-arranged in Ascii order!
 

@@ -3,17 +3,20 @@
 ## INFO:
 This is a Spark! microchallenge for getting familiar with git!  
 This is called a repository. Repositories are used to store files and to store several different commits, or versions of your code. During development, you often want to commit your code to show your process from the ground up. You also might want to update working code into a new version, while still keeping a previous version.  
-In our repository, we have a few files; our **README.md** file, which is the file you are reading right now, and our **Sort.java** file, which is a java file that sorts a given array. You are going to be using GitHub commands in VSCode to edit these files and create new files.  
+In our repository, we have a few files; our **README.md** file, which is the file you are reading right now, our **Sort.java** file, which is a java file that sorts a given array, and our **Message.java** file, which we will use to print things out and test our code. You are going to be using GitHub commands in VSCode to edit these files and create new files.  
 **YOU MUST COMMIT AFTER EVERY STEP!**  
 
 ### Commands you should know for this microchallenge:  
    ☆ **touch** -- touch \<file\> -- if \<file\> doesn't exist, it creates the file; if it does exist, it will update the timestamps of the file.  
-   ☆ **append** -- echo <thing to append> > \<file\> -- appends \<thing to append\> to \<file\>; you can use single or double quotes.  
+   ☆ **append** -- echo <thing to append> >> \<file\> -- appends \<thing to append\> to \<file\>; you can use single or double quotes.  
    ☆ **create new branch** -- git branch \<branch name\> -- creates a new branch called \<branch name\>  
    ☆ **switch to a different branch** -- git checkout \<branch name\> -- switches into the branch called \<branch name\>  
+               ---
    ☆ **_add files for commit_** -- git add \<file\> \<file2\> \<file\> <...> -- adds file(s) to be committed  
    ☆ **_commit message_** -- git commit -m "\<message here\>" -- adds a message to your commit  
    ☆ **_push the commit_** -- git push -- NO arguments, pushes the commits.  
+               ---
+               
 
 
 ## Step 0: IMPORT the repository
@@ -40,4 +43,7 @@ Create the file and append this code:
 `public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = "";char curr; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`
 **Commit!**  
 
-## Step 5: Create a 
+## Step 5: Append some code to Message.java
+Append the following to your Message.java file:
+`public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }`
+**Commit!**

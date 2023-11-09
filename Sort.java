@@ -1,5 +1,11 @@
 public class Sort {
-  public static void main(String[] args) { }
+  public static void main(String[] args) {  }
+
+    private static void swap(int[] arr, int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
+    }
 
   public static int indexSmallest(int[] arr, int start) {
       for (int i = start + 1; i < arr.length; i++) {
@@ -17,3 +23,5 @@ public class Sort {
           swap(arr, i, j);
       }
   }
+
+}

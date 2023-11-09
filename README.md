@@ -39,3 +39,5 @@ Create a new branch called temp, and move into it.
 Create the file and append this code:
 `public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = "";char curr; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`
 **Commit!**  
+
+## Step 5: Create a 

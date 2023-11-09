@@ -11,11 +11,11 @@ In our repository, we have a few files; our **README.md** file, which is the fil
    ☆ **append** -- echo <thing to append> >> \<file\> -- appends \<thing to append\> to \<file\>; you can use single or double quotes.  
    ☆ **create new branch** -- git branch \<branch name\> -- creates a new branch called \<branch name\>  
    ☆ **switch to a different branch** -- git checkout \<branch name\> -- switches into the branch called \<branch name\>  
-               ---
+               ---  
    ☆ **_add files for commit_** -- git add \<file\> \<file2\> \<file\> <...> -- adds file(s) to be committed  
    ☆ **_commit message_** -- git commit -m "\<message here\>" -- adds a message to your commit  
    ☆ **_push the commit_** -- git push -- NO arguments, pushes the commits.  
-               ---
+               ---  
                
 
 

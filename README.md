@@ -52,7 +52,6 @@ Create the file and append this code:
 ## Step 6: Create a file order.java  
 Create the code and append this code:
 `public class order { public static void main(String[] args) { } public static String asciiOrder(String phrase) { int[] arr = new int[phrase.length()];for (int i = 0; i < phrase.length(); i++) { arr[i] = (int) phrase.charAt(i); } Sort.selectionSort(arr); return decode.decoder(arr);} } ` 
- 
  **Commit!**
    
 ## Step 6: Whoops! We have to remove one our commits

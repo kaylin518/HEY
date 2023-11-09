@@ -1,0 +1,1 @@
+public class vars { public static void main(String[] args) { } public static String getName() {String name = "Kaylin"; return name; } public static String welcome() { return "Welcome to the Spark! Git Microchallenge!"; } }

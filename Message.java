@@ -4,5 +4,7 @@ public class Message {
     System.out.println("hello " + vars.getName() + "!");
     System.out.println(vars.welcome());
     System.out.println("Here is your decoded message! -> " + decode.decoder(link));
+    String toOrder = "Spark! Git Microchallenge";
+    System.out.println("The String '" + toOrder + "' ordered based on ASCII values is ->" + "'" order.asciiOrder(toOrder) + "'");
   }
 }

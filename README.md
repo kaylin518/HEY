@@ -38,16 +38,16 @@ Use Bash command `sed -i -e 's/__name__/[your name here]/g' vars.java`
 Create a new branch called temp, and move into it.
 **Commit!**    
 
-    
-## Step 4: Create a "decode.java" file  
-Create the file and append this code:
-`public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = "";char curr; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`
-**Commit!**  
-
-## Step 5: Append some code to Message.java  
+## Step 4: Append some code to Message.java  
 Append the following to your Message.java file:
 `public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }`
 **Commit!**
+    
+## Step 5: Create a "decode.java" file  
+Create the file and append this code:
+`public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = ""; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`
+**Commit!**  
+
 
 ## Step 6: Create a file order.java  
 Create the code and append this code:

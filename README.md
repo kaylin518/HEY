@@ -7,7 +7,7 @@ This is called a repository. Repositories are used to store files and to store s
 In our repository, we have a few files; our **README.md** file, which is the file you are reading right now, our **Sort.java** file, which is a java file that sorts a given array, and our **Message.java** file, which we will use to print things out and test our code. You are going to be using GitHub commands in VSCode to edit these files and create new files.  
 **YOU MUST COMMIT AFTER EVERY STEP! only commit the file you changed in each step**  
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 ### Commands you should know for this microchallenge (<> represent values that should be changed; DON'T include the <> characters in the changed value):  
    ☆ **touch** -- touch \<file\> -- if \<file\> doesn't exist, it creates the file; if it does exist, it will update the timestamps of the file.  
@@ -23,7 +23,6 @@ In our repository, we have a few files; our **README.md** file, which is the fil
    |  ☆ git rebase -i \<commit hash before the one you want to remove\>  
    |  ☆ git push origin \<branch name\> --force  
    
-<br/><br/>
 <br/><br/>
                
 ## Step 0: IMPORT the repository  
@@ -48,28 +47,28 @@ Use Bash command `sed -i -e 's/__name__/[your name here]/g' vars.java`
 Create a new branch called temp, and move into it.
 **Commit!**    
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 ## Step 4: Append some code to Message.java  
 Append the following to your Message.java file:
 `public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }`
 **Commit!**
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 ## Step 5: Create a "decode.java" file  
 Create the file and append this code:
 `public class decode {public static void main(String[] args) {}public static String decoder(int[] arr) {String result = ""; for (int i = 0; i < arr.length; i++) {result += String.valueOf( (char)arr[i] );}return result;}}`
 **Commit!** 
 
-<br/><br/><br/><br/> 
+<br/><br/> 
 
 ## Step 6: Create a file order.java  
 Create the code and append this code:
 `public class order { public static void main(String[] args) { } public static String asciiOrder(String phrase) { int[] arr = new int[phrase.length()];for (int i = 0; i < phrase.length(); i++) { arr[i] = (int) phrase.charAt(i); } Sort.selectionSort(arr); return decode.decoder(arr);} } `
 **Commit!**
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 ## Step 6: Whoops! We have to remove one our commits
 We actually **didn't** have to append any code to Message.java in step 4, so we want to remove this commit. Since we have been committing regularly, we can just remove that commit and revert to the version of Message.java before step 4.

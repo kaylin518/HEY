@@ -30,15 +30,15 @@ Let's create a new file using our codespace. In the terminal, use the "touch" BA
 `public class vars { public static void main(String[] args) { } public static String getName() {String name = "__name__"; return name; } public static String welcome() { return "Welcome to the Spark! Git Microchallenge!"; } }`  
 Remember that Java doesn't care about whitespace or indents, which is why we can append this all as one line. Also, notice that there are double quotes in the above code, so you will have to use single quotes to append.  
 **Commit!**  
-<br/><br/>  
+<br/><br/>
 ## Step 2: Update our "name" variable in vars.java  
 Use Bash command `sed -i -e 's/__name__/[your name here]/g' vars.java`  
 **Commit!**  
-<br/><br/>  
+<br/><br/>
 ## Step 3: Create a branch  
 Create a new branch called temp, and move into it.
 **Commit!**    
-<br/><br/>  
+<br/><br/>
 ## Step 4: Append some code to Message.java  
 Append the following to your Message.java file:
 `public static void tester(int[] test) { String testString = ""; for (int i = 0; i < test.length; i++) { testString += test[i]; } }`
